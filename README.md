@@ -9,7 +9,7 @@ In this project, a 4-bit binary sequence such as **1011** is divided into two 2-
 The I and Q components modulate two carrier signals that are **90° out of phase**:
 
 
-s(t)=I\cos(2\pi f_ct)+Q\sin(2\pi f_ct)
+s(t)=I\cos(2\pifct)+Q\sin(2\pifct)
 
 The project simulates the complete generation of the QAM waveform using **Python in Google Colab** and displays the digital input, I component, Q component, modulated waveform, and **16-QAM constellation diagram**. The concept can also be implemented in hardware using **AD633 analog multiplier ICs**, where the I and Q signals are multiplied with their respective carriers and then summed to generate the QAM output.
 
